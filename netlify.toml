@@ -3,8 +3,7 @@
   functions = "src/functions"
   publish = "dist"
 
-
 [[redirects]]
-  from = "/api/hello/:name"
-  to = "/.netlify/functions/hello?name=:name"
+  from = "/*"
+  to = "https://eqtventures.com/:splat"
   status = 200
